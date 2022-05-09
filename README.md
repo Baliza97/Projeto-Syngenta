@@ -1,11 +1,16 @@
-# Projeto-Syngenta
-Projeto desafio no processo seletivo Eureca Syngenta
+Nearly empty javascript project with a failing test!
+===
+**DO NOT change the names of the function (getCheapestHotel) or of the file and folder it is in, changing it implies in disqualification.**
 
-O desafio pede para criar um algoritmo que calcula qual é o hotel mais barato, considerando o tipo de cliente e as datas selecionadas.
-O código pode ser melhorado:
+To install the required modules:
 
-Idealmente, cada hotel seria um objeto, cujos atributos seriam os precos para cada tipo de dia e de cliente, alem da sua classificacao. Isso permite rápida e precisa atualizaçao de valores para cada um desses atributos.
+```
+$ yarn install
+```
 
-O código não tem sistemas de verificaçao de erros na entrada.
+To run the (failing) test:
 
-Mas funciona :D
+```
+$ yarn test
+```
+**After implementing your solution, it should pass the unit tests available.** 
