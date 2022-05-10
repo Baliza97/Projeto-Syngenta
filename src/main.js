@@ -1,5 +1,4 @@
 function getCheapestHotel(input) { //DO NOT change the function's name.
-    input = "Regular: 16Mar2009(mon), 17Mar2009(tues), 18Mar2009(wed)"
     // separar tipo de cliente das datas desejadas
     let info = input.split(":")
 
@@ -156,5 +155,3 @@ function calculaDiasFimSemana(datas) {
 
 
 exports.getCheapestHotel = getCheapestHotel
-
-getCheapestHotel()
